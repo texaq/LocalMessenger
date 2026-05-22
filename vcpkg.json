@@ -1,0 +1,16 @@
+{
+  "name": "local-messenger",
+  "version-string": "0.1.0",
+  "description": "P2P мессенджер для локальной сети (Radmin VPN)",
+  "dependencies": [
+    "boost-asio",
+    "boost-beast",
+    "boost-uuid",
+    "sqlite3",
+    "sqlitecpp",
+    "libsodium",
+    "nlohmann-json",
+    "spdlog",
+    "stb"
+  ]
+}

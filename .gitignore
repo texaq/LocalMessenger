@@ -1,0 +1,25 @@
+# Артефакты сборки
+build/
+cmake-build-*/
+out/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# vcpkg
+vcpkg_installed/
+
+# Системные
+.DS_Store
+Thumbs.db
+
+# Данные приложения (не коммитим)
+*.db
+*.db-wal
+*.db-shm
+settings.json
+messenger.log*
