@@ -1,0 +1,5 @@
+# Тесты (будут добавлены позже)
+# find_package(GTest REQUIRED)
+# add_executable(messenger_tests test_protocol.cpp test_crypto.cpp test_storage.cpp)
+# target_link_libraries(messenger_tests PRIVATE messenger_core GTest::gtest_main)
+# add_test(NAME MessengerTests COMMAND messenger_tests)
