@@ -68,6 +68,9 @@ public:
     /// Проверка, есть ли TCP-соединение с пиром
     bool is_connected(const std::string& ip) const;
 
+    /// Доступ к io_context (для модулей Call, ScreenShare и т.д.)
+    boost::asio::io_context& io_context() { return io_; }
+
 private:
     void on_incoming_session(TcpSession::Ptr session);
     void register_session(const std::string& ip, TcpSession::Ptr session);

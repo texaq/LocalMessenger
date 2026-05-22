@@ -22,6 +22,14 @@ add_library(messenger_core STATIC
     src/core/Network/TcpClient.cpp
     src/core/Network/UdpDiscovery.cpp
     src/core/Network/NetworkManager.cpp
+    # Чат
+    src/core/Chat/ChatManager.cpp
+    # Передача файлов
+    src/core/FileTransfer/FileTransferManager.cpp
+    # Звонки
+    src/core/Call/CallManager.cpp
+    # Демонстрация экрана
+    src/core/ScreenShare/ScreenShareManager.cpp
     # Криптография
     src/core/Crypto/CryptoManager.cpp
     # Хранилище
